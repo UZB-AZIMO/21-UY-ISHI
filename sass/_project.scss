@@ -1,0 +1,24 @@
+.project{
+   margin-top: 50px;
+}
+.project__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+.project__title{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+.scol{
+    font-size: 25px;
+    transition: 5s;
+    &:hover{
+        color: red;
+    }
+}
+
