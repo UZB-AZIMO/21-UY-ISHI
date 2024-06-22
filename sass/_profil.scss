@@ -10,20 +10,13 @@
 
 
 
-
-
-
-
-
-
-
-
 @media ( max-width:560px){
     .profil{
-        text-align: left;
-        &__title{
+        .profil__title{
+            margin-left: 20px;
              font-size: 40px;
             font-weight: bold;
+            text-align: left;
        }
     }
 }
