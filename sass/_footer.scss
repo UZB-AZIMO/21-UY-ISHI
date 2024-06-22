@@ -1,0 +1,47 @@
+.footer{
+background-color: black;
+color: white;
+padding: 70px 0;
+}
+.bag{
+    background-color: rgb(40, 40, 40);
+    height: 200px;
+    margin-top: 70px;
+}
+
+.footer__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.footer__card{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+
+
+    a{
+        color: inherit;
+        text-decoration: none;
+    }
+    .icon{
+        border-radius: 30%;
+        padding: 0 10px;
+    }
+
+    .footer__text{
+        font-size: 25px;
+        color: white;
+        font-weight: 600;
+        transition: 1s;
+        cursor: pointer;
+        &:hover{
+            color: gold;
+
+        }
+
+    }
