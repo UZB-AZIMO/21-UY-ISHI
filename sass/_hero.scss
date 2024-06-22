@@ -12,18 +12,18 @@
 position: relative;
 transition: 2s;
       &:hover{
-        margin-top: 100px;
+        margin-top: 82px;
+        border-radius: 30px;
       }
     }
  
     &__title{
         font-size: 52px;
         font-weight: bold;
-        color: rgb(93, 66, 17);
+        color: rgb(96, 70, 21);
 position: absolute;
     }
 }
-
 
 
 
