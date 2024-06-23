@@ -40,15 +40,16 @@
 
 // {3-masala
 
-//    function perimetr(a,b) {
-//      let yegindi = 2;
-//         let a = yegindi * (a + b);
-//         console.log(a);
-//         return "natija tayyor"
-//       }
-//    console.log(perimetr(5, 6)); //2 * (5 + 6) = 22
-//    console.log(perimetr(12, 8)); //2 * (12 + 8) = 40
- 
+{
+      function perimetr(son1, son2) {
+        let yegindi = 2;
+        let a = yegindi * (son1 + son2);
+        console.log(a);
+        return "natija"
+      }
+      console.log(perimetr(5, 6)); //2 * (5 + 6) = 22
+      console.log(perimetr(12, 8)); //2 * (12 + 8) = 40
+    }
 
 // }
 
