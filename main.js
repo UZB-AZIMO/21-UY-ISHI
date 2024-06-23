@@ -41,11 +41,11 @@
 // {3-masala
 
 {
-      function perimetr(son1, son2) {
+      function perimetr(n,m) {
         let yegindi = 2;
-        let a = yegindi * (son1 + son2);
+        let a = yegindi * (n + m);
         console.log(a);
-        return "natija"
+        return "natija tayyor"
       }
       console.log(perimetr(5, 6)); //2 * (5 + 6) = 22
       console.log(perimetr(12, 8)); //2 * (12 + 8) = 40
