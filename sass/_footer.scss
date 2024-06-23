@@ -45,3 +45,14 @@ padding: 70px 0;
         }
 
     }
+    .home{
+        z-index: 3;
+        transition: 1S;
+        &:hover{
+            transform: scaleY(30deg);
+        }
+    }
+    .book{
+        position: static;
+        text-align: right;
+    }
