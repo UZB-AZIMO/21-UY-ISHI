@@ -40,16 +40,16 @@
 
 // {3-masala
 
-{
-      function perimetr(n,m) {
-        let yegindi = 2;
-        let a = yegindi * (n + m);
-        console.log(a);
-        return "natija tayyor"
-      }
-      console.log(perimetr(5, 6)); //2 * (5 + 6) = 22
-      console.log(perimetr(12, 8)); //2 * (12 + 8) = 40
-    }
+// {
+//       function perimetr(n,m) {
+//         let yegindi = 2;
+//         let a = yegindi * (n + m);
+//         console.log(a);
+//         return "natija tayyor"
+//       }
+//       console.log(perimetr(5, 6)); //2 * (5 + 6) = 22
+//       console.log(perimetr(12, 8)); //2 * (12 + 8) = 40
+//     }
 
 // }
 
@@ -88,6 +88,18 @@
 
 
 // {6-masala
+
+// {
+// let greeting = () =>  "Hello world";
+
+//     console.log( greeting() );
+// }
+
+// }
+
+
+
+// {7-masala
 
 // {
 //         const greeting = () =>  "Hello world";

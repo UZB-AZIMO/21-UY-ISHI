@@ -1,0 +1,53 @@
+.room{
+   background-color: deepskyblue;
+    border: 1px solid #b1b1b15a;
+    border-radius: 10px;
+    padding: 50px 10px;
+    &__title{
+        font-size: 30px;
+        font-weight: 600;
+    }
+}
+.room__wrapper{
+    flex-direction: column;
+}
+.room__body{
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card__text{
+    font-size: 20px;
+    font-weight: 600;
+}
+.card__input{
+    font-size: 20px;
+    height: 50px;
+    width: 280px;
+    outline: none;
+    padding: 5px 10px;
+}
+
+.input{
+    display: block;
+    font-size: 20px;
+    width: 60%;
+    height: 50px;
+    padding: 5px 10px;
+    outline: none;
+    margin: 30px 0;
+}
+.room__btn{
+    border: none;
+    padding: 10px 20px; 
+    text-align: center;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    &:hover{
+        
+    }
+}
