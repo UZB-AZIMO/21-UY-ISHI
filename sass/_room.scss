@@ -48,6 +48,30 @@
     font-weight: 500;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     &:hover{
-        
+        background-color: black;
+        color: gold;
+        cursor: pointer;
     }
+   
+}
+.room__btn:active{
+    transform: scale(.9);
+}
+
+
+
+
+@media ( max-width:780px){
+    .room{
+       
+}
+.card__input{
+    width: 100%;
+}
+.body__card{
+    width: 100%;
+}
+.input{
+    width: 100%;
+}
 }
